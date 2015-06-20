@@ -59,7 +59,7 @@ protected:
     DemodulatorThreadOutputQueue* audioVisOutputQueue;
     AudioThreadInputQueue *audioOutputQueue;
 
-    freqdem demodFM;
+    freqmodem demodFM;
     ampmodem demodAM;
     ampmodem demodAM_DSB_CSP;
     ampmodem demodAM_DSB;
